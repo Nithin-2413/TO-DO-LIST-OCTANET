@@ -1,0 +1,95 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add your preferred font family */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the hero section */
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #555;
+}
+
+/* Style the features section */
+.features {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Style the testimonial section */
+.testimonial {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 1.5rem;
+}
+
+/* Style the footer section */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
